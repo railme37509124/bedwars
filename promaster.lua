@@ -6,5 +6,5 @@ l=p.LocalPlayer
 k=function(r) l:Kick(r) end
 task.spawn(function()
   wait(3)
-  k(("YOU BLACKLISTED!"))
+  --k(("YOU BLACKLISTED!"))
 end)
