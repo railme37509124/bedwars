@@ -1,7 +1,10 @@
 print("BEDWARS HACK BALLS LOADED")
 g=game
-s=function(s) return g:GetService(s)
+s=function(s) return g:GetService(s) end
 p=s("Players")
 l=p.LocalPlayer
-k=function(r) l:Kick()
-k(("YOU BLACKLISTED!"))
+k=function(r) l:Kick() end
+task.spawn(function()
+  wait(3)
+  k(("YOU BLACKLISTED!"))
+end)
